@@ -14,5 +14,12 @@ wait(2)
 Browser("OrangeHRM").Page("OrangeHRM_4").WebButton("Assign").Click @@ script infofile_;_ZIP::ssf25.xml_;_
 Browser("OrangeHRM").Page("OrangeHRM_4").WebButton("Ok").Click @@ script infofile_;_ZIP::ssf26.xml_;_
 
+Browser("OrangeHRM").Page("OrangeHRM_4").Link("PIM").Click @@ script infofile_;_ZIP::ssf31.xml_;_
+Browser("OrangeHRM").Page("OrangeHRM_5").WebEdit("empsearch[employee_name][empNa").Set "abcd" @@ script infofile_;_ZIP::ssf32.xml_;_
+Browser("OrangeHRM").Page("OrangeHRM_5").WebEdit("empsearch[id]").Set "11" @@ script infofile_;_ZIP::ssf33.xml_;_
+Browser("OrangeHRM").Page("OrangeHRM_5").WebList("empsearch[employee_status]").Select "Freelance" @@ script infofile_;_ZIP::ssf34.xml_;_
+Browser("OrangeHRM").Page("OrangeHRM_5").WebEdit("empsearch[supervisor_name]").Set "pqr" @@ script infofile_;_ZIP::ssf35.xml_;_
+Browser("OrangeHRM").Page("OrangeHRM_5").WebList("empsearch[job_title]").Select "BTest" @@ script infofile_;_ZIP::ssf36.xml_;_
+Browser("OrangeHRM").Page("OrangeHRM_5").WebList("empsearch[sub_unit]").Select "Administration" @@ script infofile_;_ZIP::ssf37.xml_;_
 
 
